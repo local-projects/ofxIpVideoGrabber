@@ -854,10 +854,10 @@ void IPVideoGrabber::draw(float x, float y, float width, float height) const
 }
 
 
-void IPVideoGrabber::draw(const glm::vec3& point) const
-{
-    draw(point.x, point.y);
-}
+//void IPVideoGrabber::draw(const glm::vec3& point) const
+//{
+//    draw(point.x, point.y);
+//}
 
 
 void IPVideoGrabber::draw(const ofRectangle & rect) const
